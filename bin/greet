@@ -7,3 +7,5 @@ name = gets.strip
 allow(self).to receive(:greeting).and_return("Don")
 
 greeting(name)
+
+puts 
