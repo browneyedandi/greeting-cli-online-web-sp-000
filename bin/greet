@@ -8,3 +8,4 @@ allow(self).to receive(:greeting).and_return("Don")
 
 greeting(name)
 
+chmod +x <lib/greeting>
